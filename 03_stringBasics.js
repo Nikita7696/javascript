@@ -1,4 +1,3 @@
-
 console.log(" ==========Type of String:Charater charatAt===========");
 
 var greet = "Good Morning";
@@ -62,7 +61,7 @@ console.log(`slice is ${result}`);
 var Newresult = greet.slice(5,10);
 console.log(`slice is ${Newresult}`);
 
-var word = "Jenny Marry"
+var word = "Jenny Marry";
  var result= word.split (" ")
  console.log(`After Split ==> ${ result} Total number of words is ${result.length}`);
 
@@ -75,11 +74,3 @@ var word = "Jenny Marry"
 
 
 
-
-
-
-
-
-
-
-  
