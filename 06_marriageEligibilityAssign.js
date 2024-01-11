@@ -23,4 +23,4 @@ marriageEligibility("Male", 25);
 marriageEligibility("FeMale", 28);
 marriageEligibility("FeMale", 16);
 marriageEligibility("other", 35);
-marriageEligibility("other", 41);
+marriageEligibility("other", 24);

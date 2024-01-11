@@ -43,4 +43,4 @@ console.log("Answer is", result);
 }
 
 addition(10.3, 600, 40)
-addition( "hello","Good"," Morning")
+addition( "hello", "Good"," Morning")
