@@ -8,7 +8,7 @@ isMarried: true
 console.log(Person);
 
 //if need to show specific value
-console.log(Person.FirstName); //Dor Notation
+console.log(Person.FirstName); //Dot Notation
 
 console.log(`Square Notation`);
 console.log(Person["FirstName"]); //Square Notation
@@ -46,7 +46,7 @@ let user = {
         street: "Wakad",
         pin: 411057,
         getAddress: function(){
-           console.log(`Complete Address: ${this.flatNo}, ${this.street}, ${this.city}, ${this.pin}`); 
+           console.log(`Complete Address: ${this.flatNo}, ${this.street}, ${this.city}, ${this.pin}`); //"this " is a reference element which return the current object value
         }
     },
     show: function(){
@@ -64,7 +64,7 @@ console.log(user.address);
 
 user.address.getAddress();
 
-console.log(`====== Traversing an object ========`);
+console.log(`====== Traversing an object ========`);//forin loop used to traverse the object
 let developer = {
     firstName: "Gajanan",
     age: 32,
@@ -78,4 +78,7 @@ for (const key in developer) {
     }
 }
 
+console.log(developer.skills);
+
+developer.skills.push("HTML");
 console.log(developer.skills);
