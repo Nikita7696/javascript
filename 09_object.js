@@ -82,3 +82,28 @@ console.log(developer.skills);
 
 developer.skills.push("HTML");
 console.log(developer.skills);
+
+const keys = Object.keys (developer);
+console.log(keys);                      //we get the array.
+
+let value = Object.values(developer);
+console.log(value);
+console.log(`Is values are array ===> ${Array. isArray(value)}`);// check theat values are in the array
+
+
+console.log(`Object entries.....`);
+ const entries = Object.entries(developer);
+for (const element of entries) {
+    console.log(element);
+}
+console.log(`Acessing nexted array element using double []`);
+console.log(entries[0] [0]);
+console.log(entries[0] [1]);
+
+console.log(`in operator`); // any property is availabel in the object or not
+
+const isAgeavailabel = "age" in developer;
+console.log(`is age available = ${isAgeavailabel}`);
+
+const isCityavailable = "city" in developer;
+console.log(`Is city is available ==> ${isCityavailable}`);
